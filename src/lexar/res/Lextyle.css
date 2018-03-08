@@ -1,0 +1,44 @@
+.jfx-decorator {
+    -fx-decorator-color:  rgba(39,57,130);/* #D63333 /*#48f842/*#3c72c9;*/
+    /*#3c72c9;*/ 
+}
+.jfx-decorator-buttons{
+    -fx-background-fill: #3c72c9;
+
+}
+.jfx-decorator .jfx-decorator-buttons-container{
+    -fx-background-color:-fx-decorator-color;
+
+    -fx-background-fill: #3c72c9;
+    -fx-text-fill: burlywood;
+}
+.jfx-decorator .resize-border{
+    -fx-border-color:-fx-decorator-color;
+    -fx-border-width: 0 4 4 4;
+}
+.button :hover {
+    -fx-background-color: rgb(39,57,130);
+    -fx-background-radius: 700;
+    -fx-font-weight: BOLD;
+    -fx-text-fill: WHITE;
+    -fx-cursor: HAND;
+
+}
+.button {
+    -fx-font-size: 11px;
+    -fx-font-weight: BOLD;
+}
+.jfx-tool-bar Label{
+    -fx-text-fill: WHITE;
+}
+.jfx-tool-bar{
+    -fx-background-color: #273922;
+
+}
+.jfx-text-area, .text-area{
+    -fx-background-color: black;
+}
+.text-area .content {
+    -fx-background-color: black;
+    -fx-text-fill: rgb(0,255,0);
+}
